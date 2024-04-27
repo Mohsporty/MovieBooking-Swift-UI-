@@ -23,6 +23,7 @@
 		966401B729FB1CD700589E58 /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966401B629FB1CD700589E58 /* LargeButton.swift */; };
 		E18A6D912BD95E4100302071 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18A6D902BD95E4100302071 /* TicketView.swift */; };
 		E18A6D942BD9BF6100302071 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18A6D932BD9BF6100302071 /* Ticket.swift */; };
+		E18A6D962BDD41B200302071 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18A6D952BDD41B200302071 /* Tickets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		966401B629FB1CD700589E58 /* LargeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
 		E18A6D902BD95E4100302071 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		E18A6D932BD9BF6100302071 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		E18A6D952BDD41B200302071 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				33D8598B28AC0E2F00C842CF /* Buttons */,
 				33D8598A28AC0E0000C842CF /* Views */,
 				33D8597B28ABDDCB00C842CF /* MovieBookingApp.swift */,
+				E18A6D902BD95E4100302071 /* TicketView.swift */,
 				33D8597D28ABDDCB00C842CF /* ContentView.swift */,
 				33D8597F28ABDDCC00C842CF /* Assets.xcassets */,
 				33D8598128ABDDCC00C842CF /* Preview Content */,
@@ -100,7 +103,6 @@
 		33D8598A28AC0E0000C842CF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E18A6D902BD95E4100302071 /* TicketView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				E18A6D932BD9BF6100302071 /* Ticket.swift */,
+				E18A6D952BDD41B200302071 /* Tickets.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				33D8597E28ABDDCB00C842CF /* ContentView.swift in Sources */,
 				33D8598E28AC0EA600C842CF /* TicketData.swift in Sources */,
 				E18A6D912BD95E4100302071 /* TicketView.swift in Sources */,
+				E18A6D962BDD41B200302071 /* Tickets.swift in Sources */,
 				3314728328B038DF000AFD83 /* utils.swift in Sources */,
 				E18A6D942BD9BF6100302071 /* Ticket.swift in Sources */,
 				3314727D28B03430000AFD83 /* StatusUI.swift in Sources */,

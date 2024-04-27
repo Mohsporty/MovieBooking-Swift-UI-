@@ -13,6 +13,7 @@ struct Ticket: View {
     @State var subtitle = "Love and Thunder"
     @State var top = "thor-top"
     @State var bottom = "thor-bottom"
+    @Binding var height : CGFloat
     
     var gradient = [ Color("cyan"), Color("cyan").opacity(0), Color("cyan").opacity(0)]
     var body: some View {
@@ -50,6 +51,8 @@ struct Ticket: View {
             }
             
             .cornerRadius(40, corners: [.topLeft, .topRight])
+            
+            Spacer(minLength: height )
             
             
             // this code for line under the ticket photo
@@ -123,5 +126,5 @@ struct Ticket: View {
 }
 
 #Preview {
-    Ticket()
+    Ticket(height: .constant(0))
 }
