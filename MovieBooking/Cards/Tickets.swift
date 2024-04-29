@@ -71,6 +71,7 @@ struct InfinitesStackView : View{
             translation = isDragging ? translation : 0
                     withAnimation(.easeInOut(duration: 0.3 )) {
                 offset = translation
+                        height = -offset / 5
             }
                           })
                 .onEnded({ value in
@@ -91,6 +92,7 @@ struct InfinitesStackView : View{
                                 removeAndadd()
                             } else {
                                 offset = .zero
+                                height = .zero
                             }
                         }
       
