@@ -50,6 +50,12 @@ struct TicketViwe: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
                 
                 
+                // concet page of tickets and all informations about connect the page
+                
+                Tickets()
+                    .padding(.top, 30)
+                
+                
                 
                 // this is to code to type the background
                 
