@@ -24,6 +24,8 @@
 		E12B1ECE2BE05C7900AD42FB /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12B1ECD2BE05C7900AD42FB /* TabData.swift */; };
 		E12B1ED02BE06A6200AD42FB /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12B1ECF2BE06A6200AD42FB /* CustomTabBar.swift */; };
 		E12B1ED22BE2AE4600AD42FB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12B1ED12BE2AE4600AD42FB /* HomeView.swift */; };
+		E12B1ED42BE3218C00AD42FB /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12B1ED32BE3218C00AD42FB /* CustomSearchBar.swift */; };
+		E12B1ED62BE324BC00AD42FB /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12B1ED52BE324BC00AD42FB /* ScrollSection.swift */; };
 		E18A6D912BD95E4100302071 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18A6D902BD95E4100302071 /* TicketView.swift */; };
 		E18A6D942BD9BF6100302071 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18A6D932BD9BF6100302071 /* Ticket.swift */; };
 		E18A6D962BDD41B200302071 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18A6D952BDD41B200302071 /* Tickets.swift */; };
@@ -48,6 +50,8 @@
 		E12B1ECD2BE05C7900AD42FB /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		E12B1ECF2BE06A6200AD42FB /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		E12B1ED12BE2AE4600AD42FB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E12B1ED32BE3218C00AD42FB /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		E12B1ED52BE324BC00AD42FB /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
 		E18A6D902BD95E4100302071 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		E18A6D932BD9BF6100302071 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		E18A6D952BDD41B200302071 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 				33D8599628AC1E4D00C842CF /* CircleBackground.swift */,
 				3314727C28B03430000AFD83 /* StatusUI.swift */,
 				E12B1ECF2BE06A6200AD42FB /* CustomTabBar.swift */,
+				E12B1ED32BE3218C00AD42FB /* CustomSearchBar.swift */,
+				E12B1ED52BE324BC00AD42FB /* ScrollSection.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -183,7 +189,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					33D8597728ABDDCB00C842CF = {
 						CreatedOnToolsVersion = 14.0;
@@ -227,6 +233,7 @@
 			files = (
 				33D8599228AC179800C842CF /* TimeButton.swift in Sources */,
 				33D8597E28ABDDCB00C842CF /* ContentView.swift in Sources */,
+				E12B1ED62BE324BC00AD42FB /* ScrollSection.swift in Sources */,
 				33D8598E28AC0EA600C842CF /* TicketData.swift in Sources */,
 				E18A6D912BD95E4100302071 /* TicketView.swift in Sources */,
 				E18A6D962BDD41B200302071 /* Tickets.swift in Sources */,
@@ -236,6 +243,7 @@
 				E12B1ED02BE06A6200AD42FB /* CustomTabBar.swift in Sources */,
 				E12B1ED22BE2AE4600AD42FB /* HomeView.swift in Sources */,
 				3314728128B038C1000AFD83 /* RoundButton.swift in Sources */,
+				E12B1ED42BE3218C00AD42FB /* CustomSearchBar.swift in Sources */,
 				E12B1ECE2BE05C7900AD42FB /* TabData.swift in Sources */,
 				966401B729FB1CD700589E58 /* LargeButton.swift in Sources */,
 				33D8599B28AC26E000C842CF /* CircleButton.swift in Sources */,
@@ -285,6 +293,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -345,6 +354,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
