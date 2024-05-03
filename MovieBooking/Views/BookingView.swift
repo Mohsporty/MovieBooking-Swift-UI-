@@ -108,7 +108,7 @@ struct BookingView: View {
                     }
                     
                     NavigationLink{
-                        Text("Seats View")
+                       SeatsView()
                     } label: {
                         
                         // resrvation code also intgreted with other code
