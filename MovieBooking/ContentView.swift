@@ -16,26 +16,28 @@ struct ContentView: View {
     
     
     var body: some View {
-        VStack(spacing: 0.0) {
-            TabView(selection: $currentTab)
-                      {
-     // this jome view to concet the page of home view to showing in the firs page of that
-                HomeView()
-                              .tag(Tab.home)
-                Text("Location")
-                              .tag(Tab.location)
-                          TicketViwe()
-                              .tag(Tab.ticket)
-                          Text("Category")
-                              .tag(Tab.category)
-                          Text("Profile")
-                              .tag(Tab.profile)
-                
-                
+        NavigationView {
+            VStack(spacing: 0.0) {
+                TabView(selection: $currentTab)
+                          {
+         // this jome view to concet the page of home view to showing in the firs page of that
+                    HomeView()
+                                  .tag(Tab.home)
+                    Text("Location")
+                                  .tag(Tab.location)
+                              TicketViwe()
+                                  .tag(Tab.ticket)
+                              Text("Category")
+                                  .tag(Tab.category)
+                              Text("Profile")
+                                  .tag(Tab.profile)
+                    
+                    
+                }
+               CustomTabBar(currentTab: $currentTab)
             }
-           CustomTabBar(currentTab: $currentTab)
+            .ignoresSafeArea(.keyboard)
         }
-        .ignoresSafeArea(.keyboard)
     }
 }
 
